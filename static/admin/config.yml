@@ -2,7 +2,7 @@ backend:
   name: github
   repo: lallhar/SQUARESPACES
 
-  media_folder: static/assets
+  media_folder: src/assets/images
 
 collections:
   - name: blog
