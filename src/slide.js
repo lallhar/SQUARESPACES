@@ -1,9 +1,3 @@
-
-
-
-if (typeof(window) !== 'undefined') {
-
-
 var TxtType = function(el, toRotate, period) {
     this.toRotate = toRotate;
     this.el = el;
@@ -45,8 +39,7 @@ TxtType.prototype.tick = function() {
     }, delta);
 };
 
-
-window.onload = function() {
+window.addEventListener = function() {
     var elements = document.getElementsByClassName('typewrite');
     for (var i=0; i<elements.length; i++) {
         var toRotate = elements[i].getAttribute('data-type');
@@ -54,12 +47,10 @@ window.onload = function() {
         if (toRotate) {
           new TxtType(elements[i], JSON.parse(toRotate), period);
         }
-    }
+    };
     // INJECT CSS
     var css = document.createElement("style");
     css.type = "text/css";
     css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
     document.body.appendChild(css);
 };
-
-}

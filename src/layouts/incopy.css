@@ -21,7 +21,7 @@ a:link {
   width: 100%;
   margin-bottom: 20%;
   top: 31%;
-  cursor: pointer;
+ 
 }
 .carousel-people .before img {
   position: absolute;
@@ -161,7 +161,7 @@ header {
 }
 .header-wrap .search {
   position: absolute;
-  width: 45%;
+  width: 35%;
   height: 40px;
   margin: auto auto;
   top: 0;
@@ -180,9 +180,10 @@ header {
   letter-spacing: 0.05em;
 }
 .header-wrap .search input::-webkit-input-placeholder {
-  font-size: 0.75em;
-  color: #333;
+  font-size: 0.76em;
+  color: #000;
   font-weight: 400;
+  letter-spacing: 0.15000586em;
 }
 .header-wrap .search input:focus {
   outline: none;
@@ -316,7 +317,7 @@ main .carousel .prevs {
   width: 100%;
   margin-bottom: 20%;
   top: 40%;
-  cursor: pointer;
+  
 }
 main .carousel .prevs img {
   position: absolute;

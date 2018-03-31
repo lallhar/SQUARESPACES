@@ -1,38 +1,23 @@
 import React from 'react'
-
 var ReactDOM = require('react-dom');
-
-
 import Link from 'gatsby-link'
 import Img from 'gatsby-image'
 
 
 
-
-import $ from 'jquery'
-import Typed from 'typed.js';
-
-
-
+// Third party JS access `window` without
+ `typeof window !== "undefined"`
 
 
 
 
 const IndexPage = () => (
-  <div>
- 
-
-
-
- 
-
-
-
+<div> 
 
 <header className="navbar-fixed-top header-bg">
     <div className="header-wrap">
         <a href="/" className="logo">
-            <span className="full-logo">
+        <span className="full-logo">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 168 24" width="168px" height="24px">
                 <title>Squarespace</title>
                 <path id="squarespace-logo-horizontal"
@@ -57,14 +42,12 @@ const IndexPage = () => (
         </div>
         <div className="header-btn">
             <a href="#" className="log-in">LOG IN</a>
-            <a href="#" className="base-button button">GET STARTED</a>
+            <a href="#" className="base-button button">CREATE A SITE</a>
         </div>
     </div>
 </header>
 <main>
-    <div className="carousel">
-       
-
+    <div className="carousel">      
         <div className="car-pics">           
             <div className="pics pics-wellness pics-real" >
                 <img src="https://github.com/Tingoo/squarespace/blob/master/images/images/carousel3/real-estate-scene-2500w.jpg?raw=true" alt=""/>
@@ -80,20 +63,18 @@ const IndexPage = () => (
                     <img src="https://github.com/Tingoo/squarespace/blob/master/images/images/carousel4/restaurant-screen-300w.jpg?raw=true" alt="" className="pics-300"/>
                 </div>
             </div>
-        </div>
-      
+        </div>      
         <div className="car-text">
             <div className="text animated-in">
                 <h1 className="text-heading">
-                    <span>Make it Loud.</span>
+                   <span>Make it</span>                                            
 
 
+            <a href="" className="typewrite" data-period="2000" data-type='[ "loud.", "fresh.", "beautiful.", "tasteful." ]'>
+    <span className="wrap"></span>
+            </a>
 
-
-
-
-
-                    <span className="typer-container" className="Typed">
+                    <span className="typer-container" id="Typed">
                     </span>
                 </h1>
               <h3 className="text-sub-heading">Make your own website.</h3>
@@ -102,9 +83,7 @@ const IndexPage = () => (
                     <h5>No credit card required.</h5>
                 </div>
             </div>
-        </div>
-
-       
+        </div>       
     </div>
     <div className="logos">
         <div className="logo-text">
@@ -119,11 +98,11 @@ const IndexPage = () => (
                     <a className="show-more">See All Stories</a>
                 </div>
             </div>
-        </div>
-        </div>
-        </main>  
+         </div>
+    </div>
+ </main>
 
-  <section className="homecons mt-4 mb-4" className="py-8">
+<section className="homecons mt-4 mb-4" className="py-8">
           <div className="container">
             <div className="row">
               <div className="slide col-md-2 mb-4 text-center">
@@ -143,13 +122,12 @@ const IndexPage = () => (
                               </div>               
               <div className="slide col-md-2 mb-4 text-center">                
               <img src="https://github.com/Tingoo/squarespace/blob/master/images/logo/HaloCreameryLogo300x112.jpg?raw=true"/>
-                </div>
             </div>
-          </div>          
-        </section>               
+       </div>
+    </div>          
+ </section>             
 
-
- <div className='carousel is-3 carousel-animated carousel-animate-slide'>
+<div className='carousel is-3 carousel-animated carousel-animate-slide'>
   <div className='carousel-container'>
     <div className='carousel-item is-active'>
       <figure className="image is-1by1"><img src="https://static1.squarespace.com/static/ta/5134cbefe4b0c6fb04df8065/9306/assets/blocks/content/home-summer-2017/featured-customers/keanu-reeves.jpg"/></figure>
@@ -203,7 +181,6 @@ const IndexPage = () => (
   </div>
 </div>       
 
-
 <section className="hero">
   <div className="hero-body">
   <div className="right">
@@ -246,105 +223,99 @@ const IndexPage = () => (
         </div>
 </section>
 </div>
-
-
-
-  <div className="column">
+<div className="column">
     <h5 className="sub-title">
-    AWARD-WINNING DESIGN
+        AWARD-WINNING DESIGN
     </h5>
-    <h2 className="title">
-    LOOK LIKE AN EXPERT RIGHT FROM THE START.
-    </h2>
+     <h2 className="title">
+        LOOK LIKE AN EXPERT RIGHT FROM THE START.
+     </h2>
     <p>Our award-winning templates are the most beautiful way to present your ideas online. Stand out with a professional website, portfolio, or online store.</p>
-    <a className="cta button" href="/templates">GET STARTED</a>
-<button type="button" className="btn btn-link">Learn More</button>
-    </div>      
-    </div>
-    </div>
-  </div>
+       <a className="cta button" href="/templates">GET STARTED</a>
+    <button type="button" className="btn btn-link">Learn More</button>
+        </div>      
+       </div>
+     </div>
+   </div>
   </div>
 </section>
 
 <section className="hero py-2" >
-  <div className="hero-body">
-    <div className="container">
-    <div className="columns">
-    <div className="column">    
-    <h5 className="sub-title">
-    ONLINE STORES
-    </h5>
-    <h2 className="title">
-    ALL YOU NEED TO POWER YOUR ONLINE STORE.
-     </h2>
-    <p>Our all-in-one platform gives you everything you need to run your business. Whether you’re just getting started or are an established brand, our powerful platform helps your business grow.</p>
-        <a className="cta button" href="/templates">GET STARTED</a>
-<button type="button" className="btn btn-link">Learn More</button>
-    </div>  
-    <div className="column">  
-    <div className="choco">  
-    <img src="https://static1.squarespace.com/static/ta/5134cbefe4b0c6fb04df8065/9258/assets/blocks/content/home-summer-2017/online-stores-feature/background.jpg?2" alt="An artisanal chocolate ecommerce website." className="chocolate"/>  
-    <iframe  width="448" height="385"  src="https://static1.squarespace.com/static/ta/5134cbefe4b0c6fb04df8065/9258/assets/blocks/content/home-summer-2017/online-stores-feature/foreground-500.mp4  " frameBorder="0" ></iframe>
-        </div>      
-        </div>
-    </div>
-      </div>  
+    <div className="hero-body">
+     <div className="container">
+         <div className="columns">
+            <div className="column">    
+                <h5 className="sub-title">
+                 ONLINE STORES
+                 </h5>
+                     <h2 className="title">
+                         ALL YOU NEED TO POWER YOUR ONLINE STORE.
+                     </h2>
+                    <p>Our all-in-one platform gives you everything you need to run your business. Whether you’re just getting started or are an established brand, our powerful platform helps your business grow.</p>
+                        <a className="cta button" href="/templates">GET STARTED</a>
+                      <button type="button" className="btn btn-link">Learn More</button>
+                    </div>  
+                   <div className="column">  
+                  <div className="choco">  
+                 <img src="https://static1.squarespace.com/static/ta/5134cbefe4b0c6fb04df8065/9258/assets/blocks/content/home-summer-2017/online-stores-feature/background.jpg?2" alt="An artisanal chocolate ecommerce website." className="chocolate"/>  
+                <iframe  width="448" height="385"  src="https://static1.squarespace.com/static/ta/5134cbefe4b0c6fb04df8065/9258/assets/blocks/content/home-summer-2017/online-stores-feature/foreground-500.mp4  " frameBorder="0" ></iframe>
+               </div>      
+             </div>
+           </div>
+       </div>  
   </div>
 </section>
-
 
 <section className="hero">
   <div className="hero-body">
-  <div className="right">
-    <div className="container">
-    <div className="columns">
-    <div className="column">   
-    <div className="iphone"> 
-    <iframe width="448" height="385"  src="https://static1.squarespace.com/static/ta/5134cbefe4b0c6fb04df8065/9258/assets/blocks/content/home-summer-2017/marketing-feature/background-video-500.mp4" frameBorder="0" ></iframe>
-    <img src="https://static1.squarespace.com/static/ta/5134cbefe4b0c6fb04df8065/9258/assets/blocks/content/home-summer-2017/marketing-feature/foreground.jpg?2" alt="Bakers need websites, too." className="image"/>  
-    </div>
-    </div>
-    <div className="column">
-    <h5 className="sub-title">
-    MARKETING TOOLS
-    </h5>
-    <h2 className="title">
-    REACH AND GROW YOUR AUDIENCE.
-    </h2>
-    <p>Squarespace provides you with a comprehensive set of marketing tools to engage with your audience, get found across search and social, and grow your following.</p>
-    <a className="cta button" href="/templates">GET STARTED</a>
-<button type="button" className="btn btn-link">Learn More</button>
-    </div>      
-    </div>
-    </div>
-  </div>
-  </div>
-</section>
+   <div className="right">
+     <div className="container">
+      <div className="columns">
+       <div className="column">   
+         <div className="iphone"> 
+           <iframe width="528" height="525"  src="https://static1.squarespace.com/static/ta/5134cbefe4b0c6fb04df8065/9258/assets/blocks/content/home-summer-2017/marketing-feature/background-video-500.mp4" frameBorder="0" ></iframe>
+             <img src="https://static1.squarespace.com/static/ta/5134cbefe4b0c6fb04df8065/9258/assets/blocks/content/home-summer-2017/marketing-feature/foreground.jpg?2" alt="Bakers need websites, too." className="image"/>  
+           </div>
+          </div>
+ <div className="column">
+     <h5 className="sub-title">
+        MARKETING TOOLS
+     </h5>
+       <h2 className="title">
+         REACH AND GROW YOUR AUDIENCE.
+       </h2>
+             <p>Squarespace provides you with a comprehensive set of marketing tools to engage with your audience, get found across search and social, and grow your following.</p>
+           <a className="cta button" href="/templates">GET STARTED</a>
+          <button type="button" className="btn btn-link">Learn More</button>
+         </div>      
+        </div>
+       </div>
+      </div>
+     </div> 
+</section>  
 
-
-<section className="hero ">
+<section className="hero py-l ">
   <div className="hero-body">
     <div className="container">
-    <div className="columns">
-    <div className="column ">      
-    <h5 className="sub-title">
-    ALL-IN-ONE PLATFORM
-    </h5>
-    <h2 className="title">
-    WE’VE GOT YOU COVERED.
-    </h2>
-    <p>Think of Squarespace as your very own IT department, with free, unlimited hosting, top-of-the-line security, an enterprise-grade infrastructure, and around-the-clock support. Get personalized support from our Customer Care Team via email or live chat. Reach out any time — we’re here 24/7.</p>
-    <a className="cta button" href="/templates">VISIT HELP CENTER</a>
-<button type="button" className="btn btn-link">Learn More</button>
-    </div>
-    <div className="column">       
-           <img src="https://static1.squarespace.com/static/ta/5134cbefe4b0c6fb04df8065/9288/assets/blocks/content/home-summer-2017/support-feature/primary-3.jpg?2" className="limg"></img>
-       </div>             
-    </div>
-  </div>
+     <div className="columns">
+      <div className="column ">      
+       <h5 className="sub-title">
+          ALL-IN-ONE PLATFORM
+         </h5>
+          <h2 className="title">
+            WE’VE GOT YOU COVERED.
+             </h2>
+                 <p>Think of Squarespace as your very own IT department, with free, unlimited hosting, top-of-the-line security, an enterprise-grade infrastructure, and around-the-clock support. Get personalized support from our Customer Care Team via email or live chat. Reach out any time — we’re here 24/7.</p>
+                <a className="cta button" href="/templates">VISIT HELP CENTER</a>
+               <button type="button" className="btn btn-link">Learn More</button>
+             </div>
+            <div className="column">       
+         <img src="https://static1.squarespace.com/static/ta/5134cbefe4b0c6fb04df8065/9288/assets/blocks/content/home-summer-2017/support-feature/primary-3.jpg?2" className="limg"></img>
+      </div>             
+     </div>
+   </div>
   </div>     
-</section>
-
+</section>  
 
 <footer>
     <div className="footer-wrap">
@@ -559,62 +530,7 @@ const IndexPage = () => (
     </div>
 </footer>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </div>
-
 )
-
-
-
-
-
-
 export default IndexPage
 

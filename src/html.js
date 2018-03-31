@@ -35,6 +35,8 @@ module.exports = class HTML extends React.Component {
           
 <link rel="stylesheet/less" type="text/css" href="../layouts/index.less" />
 
+<link rel="stylesheet/css" href="slide.js"/>
+
 
 
 
@@ -63,7 +65,7 @@ module.exports = class HTML extends React.Component {
           <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
 
 
-
+       <script src="   https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.6/typed.min.js"></script>
           
 
           

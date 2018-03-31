@@ -5,7 +5,9 @@ import Img from "gatsby-image";
 
 import Link from 'gatsby-link'
 
-import $ from 'jquery'
+
+
+
 
 
 
@@ -14,11 +16,9 @@ import './change.js'
 
 import './incopy.css'
 
-import CMS from 'netlify-cms'
 
 
-
-
+import './slide.js'
 
 
 
@@ -36,10 +36,10 @@ import './bulma.css'
 
 import './bootstrap.css'
 
-import './typed.js'
+import './type.js'
 
 
-
+import './typed.min.js'
 
 
 
