@@ -5,6 +5,10 @@ import Img from 'gatsby-image'
 
 
 
+
+
+
+
 // Third party JS access `window` without
  `typeof window !== "undefined"`
 
