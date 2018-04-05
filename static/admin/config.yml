@@ -5,9 +5,9 @@ backend:
 media_folder: "src/assets/images"
 
 collections:
-  - name: blog
-    label: Blog
-    folder: blog
+  - name: squarespace
+    label: squarespacesite
+    folder: src/pages/index.js
     create: true
     fields:
       - { name: path, label: Path }
