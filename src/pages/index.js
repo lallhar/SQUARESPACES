@@ -81,7 +81,7 @@ const IndexPage = () => (
                     <span className="typer-container" id="Typed">
                     </span>
                 </h1>
-              <h3 className="text-sub-heading">Make your own website.</h3>
+              <h3 className="text-sub-heading">Making your own website.</h3>
                 <div className="text-start ">
                     <a href="#" className="button">Start A Free Trial</a>
                     <h5>No credit card required.</h5>
