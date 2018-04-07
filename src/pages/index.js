@@ -146,7 +146,7 @@ const IndexPage = () => (
       </div>         
     <div className='carousel-item'>
       <figure className="image is-1by1"><img src="https://static1.squarespace.com/static/ta/5134cbefe4b0c6fb04df8065/9306/assets/blocks/content/home-summer-2017/featured-customers/sadie-williams.jpg?2"/></figure>
-      <h3 className="slide-title">Sadie Williams</h3>
+      <h3 className="slide-title">Harsha Williams</h3>
       <p className="slide-subtitle">Fashion Designer</p>
       </div>                 
     <div className='carousel-item'>
